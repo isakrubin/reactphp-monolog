@@ -1,7 +1,7 @@
 {
-"name": "expressobyte/reactphp-monolog",
+    "name": "espressobyte/reactphp-monolog",
     "description": "A simple PSR file logger for react php forked from https://github.com/sunvalley-technologies/react-php-file-logger",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
     {
