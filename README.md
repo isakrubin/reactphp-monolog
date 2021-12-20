@@ -1,12 +1,16 @@
+[![Test](https://github.com/tajulasri/reactphp-monolog/actions/workflows/test.yml/badge.svg)](https://github.com/tajulasri/reactphp-monolog/actions/workflows/test.yml)
+
 # React PHP File Logger
 
 A PSR non-blocking file logger for react php. Uses monolog and provides non blocking monolog handlers.
 
 ## Installing
 
-``
-composer require espressobyte/reactphp-monolog
-``
+```php
+   
+    composer require espressobyte/reactphp-monolog
+
+```
 
 ## Usage
 
