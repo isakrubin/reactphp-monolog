@@ -1,4 +1,4 @@
-[![tests](https://github.com/tajulasri/reactphp-monolog/actions/workflows/test.yml/badge.svg)](https://github.com/tajulasri/reactphp-monolog/actions/workflows/test.yml)
+[![tests](https://github.com/tajulasri/reactphp-monolog/actions/workflows/tests.yml/badge.svg)](https://github.com/tajulasri/reactphp-monolog/actions/workflows/tests.yml)
 [![Latest Stable Version](http://poser.pugx.org/espressobyte/reactphp-monolog/v)](https://packagist.org/packages/espressobyte/reactphp-monolog)
 [![Total Downloads](http://poser.pugx.org/espressobyte/reactphp-monolog/downloads)](https://packagist.org/packages/espressobyte/reactphp-monolog)
 [![Latest Unstable Version](http://poser.pugx.org/espressobyte/reactphp-monolog/v/unstable)](https://packagist.org/packages/espressobyte/reactphp-monolog)
