@@ -1,5 +1,8 @@
-[![Test](https://github.com/tajulasri/reactphp-monolog/actions/workflows/test.yml/badge.svg)](https://github.com/tajulasri/reactphp-monolog/actions/workflows/test.yml)
-
+[![tests](https://github.com/tajulasri/reactphp-monolog/actions/workflows/test.yml/badge.svg)](https://github.com/tajulasri/reactphp-monolog/actions/workflows/test.yml)
+[![Latest Stable Version](http://poser.pugx.org/espressobyte/reactphp-monolog/v)](https://packagist.org/packages/espressobyte/reactphp-monolog)
+[![Total Downloads](http://poser.pugx.org/espressobyte/reactphp-monolog/downloads)](https://packagist.org/packages/espressobyte/reactphp-monolog)
+[![Latest Unstable Version](http://poser.pugx.org/espressobyte/reactphp-monolog/v/unstable)](https://packagist.org/packages/espressobyte/reactphp-monolog)
+[![License](http://poser.pugx.org/espressobyte/reactphp-monolog/license)](https://packagist.org/packages/espressobyte/reactphp-monolog)
 # React PHP File Logger
 
 A PSR non-blocking file logger for react php. Uses monolog and provides non blocking monolog handlers.
@@ -7,8 +10,8 @@ A PSR non-blocking file logger for react php. Uses monolog and provides non bloc
 ## Installing
 
 ```php
-   
-    composer require espressobyte/reactphp-monolog
+
+composer require espressobyte/reactphp-monolog
 
 ```
 
@@ -21,6 +24,8 @@ These loggers are just a quick short-cut to use the non blocking handlers specif
 #### Monolog/StreamHandler
 
 ```php
+<?php
+
 use Monolog\Logger;
 use React\Stream\WritableResourceStream;
 use EspressoByte\LoopUtil\FileLogger\Monolog\StreamHandler;
@@ -35,6 +40,8 @@ $loop->run();
 #### Monolog/StdIOHandler
 
 ```php
+<?php
+
 use Monolog\Logger;
 use EspressoByte\LoopUtil\FileLogger\Monolog\StdIOHandler;
 
@@ -48,6 +55,8 @@ $loop->run();
 #### Monolog/FileHandler
 
 ```php
+<?php
+
 use Monolog\Logger;
 use EspressoByte\LoopUtil\FileLogger\Monolog\FileHandler;
 
@@ -59,13 +68,14 @@ $logFile = __DIR__ . '/test.log';
 $logger->pushHandler(new FileHandler($loop, $logFile));
 $logger->info('Message!!!');
 $loop->run();
+
 ```
 
 ### Testing
 
 ```bash
 
-    ./vendor/bin/phpunit
+./vendor/bin/phpunit
 
 ```
 
